@@ -7,6 +7,10 @@ Currently, the contents are
 ```
 .
 ├── README.md
-└── learn_sql # Notes from Codecademy's course "Learn SQL"
-    └── learn_sql.md
+├── learn_sql          # Notes from Codecademy's "Learn SQL" course
+│   └── learn_sql.md
+└── learnpy            # Misc. Python resources and notes
+    ├── NOTES.md
+    ├── PLOTTING.md
+    └── README.md
 ```
