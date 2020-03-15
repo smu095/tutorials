@@ -4,6 +4,7 @@ from collections import namedtuple
 
 Customer = namedtuple("Customer", "name fidelity")
 
+
 @dataclass
 class LineItem:
     product: str
@@ -16,7 +17,6 @@ class LineItem:
 
 # Context
 class Order:
-
     def __init__(self, customer, cart, promotion=None):
         self.customer = customer
         self.cart = list(cart)
@@ -25,7 +25,9 @@ class Order:
     def total(self):
         if not hasattr(self, "__total"):
             self.__total = sum(item.total() for item in self.cart)
-        return self.__total # Note double leading underscore to prevent accidental modification
+        return (
+            self.__total
+        )  # Note double leading underscore to prevent accidental modification
 
     def due(self):
         if self.promotion is None:
