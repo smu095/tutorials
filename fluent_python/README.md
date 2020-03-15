@@ -11,16 +11,31 @@ detail.
 
 ## Part 1
 
-### Chapter 1
+### [Chapter 1]()
+
+TODO: Write short summary, add URL.
 
 ## Part 2
 
-### Chapter 2
+### [Chapter 2]()
 
-### Chapter 3
+TODO: Write short summary, add URL.
 
-### Chapter 4
+### [Chapter 3]()
+
+TODO: Write short summary, add URL.
+
+### [Chapter 4]()
+
+TODO: Write short summary, add URL.
+
+### [Chapter 5]()
+
+TODO: Write short summary, add URL.
 
 ## Part 3
 
-### Chapter 5
+### [Chapter 6]()
+
+TODO: Write short summary, add URL.
+
