@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "/miniconda3/envs/fluent_python/bin/python",
+    "window.zoomLevel": 1,
+    "autoDocstring.docstringFormat": "numpy",
+    "editor.lineNumbers": "relative",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=E501"
+    ],
+    "python.linting.mypyEnabled": true,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+}
