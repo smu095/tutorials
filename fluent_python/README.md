@@ -58,3 +58,30 @@ The goal of this chapter is to explain how function decorators work. It explores
 ### [Chapter 8: Object References, Mutability, and Recycling]()
 
 This chapter discusses how names are bound to objects, the concepts of objects identity, value and aliasing, garbage collection, the `del` statement and weak referencing.
+
+### [Chapter 9: Pythonic Objects]()
+
+This chapter picks up where chapter 1 left off, and shows how to implement several special methods that are commonly seen in Python objects of many different types. 
+
+We will see how to:
+
+* Support the built-in functions that produce alternative object representation.
+
+* Implement an alternative constructor as a class method.
+
+* Extend the format mini-language used by the `format()` built-in and `str.format()` method.
+
+* Provide read-only access to attributes.
+
+* Make an object hashable for use in sets and `dict` keys.
+
+* Save memory by using `__slots__`.
+
+Through examples we will also examine:
+
+* How and when to use the `@classmethod` and `@staticmethod` decorators.
+
+* Private and protected attributes in Python: usage, conventions, and methods.
+
+
+
