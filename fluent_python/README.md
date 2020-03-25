@@ -9,33 +9,42 @@ merely a summary of each chapter for future reference. Interested readers are
 strongly encouraged to purchase a copy of the book, which goes into far more
 detail.
 
-## Part 1
+## Part 1. Prologue
 
-### [Chapter 1]()
-
-TODO: Write short summary, add URL.
-
-## Part 2
-
-### [Chapter 2]()
+### [Chapter 1: The Python Data Model]()
 
 TODO: Write short summary, add URL.
 
-### [Chapter 3]()
+## Part 2. Data Structures
+
+### [Chapter 2: An Array of Sequences]()
 
 TODO: Write short summary, add URL.
 
-### [Chapter 4]()
+### [Chapter 3: Dictionaries and Sets]()
 
 TODO: Write short summary, add URL.
 
-### [Chapter 5]()
+### Chapter 4: Text versus Bytes
 
 TODO: Write short summary, add URL.
 
-## Part 3
+## Part 3. Functions as Objects
 
-### [Chapter 6]()
+### [Chapter 5: First-Class Functions]()
 
 TODO: Write short summary, add URL.
 
+### [Chapter 6: Design Patterns with First-Class Functions]()
+
+TODO: Write short summary, add URL.
+
+### [Chapter 7: Function Decorators and Closures]()
+
+TODO: Write short summary, add URL.
+
+## Part 4. Object-Oriented Idioms
+
+### [Chapter 8: Object References, Mutability, and Recycling]()
+
+TODO: Write short summary, add URL.
