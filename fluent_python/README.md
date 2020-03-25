@@ -47,4 +47,4 @@ TODO: Write short summary, add URL.
 
 ### [Chapter 8: Object References, Mutability, and Recycling]()
 
-TODO: Write short summary, add URL.
+This chapter discusses how names are bound to objects, the concepts of objects identity, value and aliasing, garbage collection, the `del` statement and weak referencing.
