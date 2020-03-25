@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/miniconda3/envs/fluent_python/bin/python",
+    "python.pythonPath": "/Users/sean/miniconda3/envs/fluentpython/bin/python",
     "window.zoomLevel": 1,
     "autoDocstring.docstringFormat": "numpy",
     "editor.lineNumbers": "relative",
