@@ -61,7 +61,7 @@ This chapter discusses how names are bound to objects, the concepts of objects i
 
 ### [Chapter 9: Pythonic Objects]()
 
-This chapter picks up where chapter 1 left off, and shows how to implement several special methods that are commonly seen in Python objects of many different types. 
+This chapter picks up where chapter 1 left off, and shows how to implement several special methods that are commonly seen in Python objects of many different types.
 
 We will see how to:
 
@@ -82,6 +82,11 @@ Through examples we will also examine:
 * How and when to use the `@classmethod` and `@staticmethod` decorators.
 
 * Private and protected attributes in Python: usage, conventions, and methods.
+
+
+### [Chapter 10: Sequence Hacking, Hashing, and Slicing]()
+
+TODO.
 
 
 

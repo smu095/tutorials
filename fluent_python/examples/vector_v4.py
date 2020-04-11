@@ -2,10 +2,13 @@ from array import array
 import reprlib
 import math
 import numbers
+import functools
+import operator
 
 
 class Vector:
     typecode = "d"
+    shortcut_names = "xyzt"
 
     def __init__(self, components):
         self._components = array(self.typecode, components)
@@ -27,7 +30,11 @@ class Vector:
         return (bytes([ord(self.typecode)])) + bytes(self._components)
 
     def __eq__(self, other):
-        return tuple(self) == tuple(other)
+        return len(self) == len(other) and all(a == b for a, b in zip(self, other))
+
+    def __hash__(self):
+        hashes = (hash(x) for x in self._components)
+        return functools.reduce(operator.xor, hashes, 0)
 
     def __abs__(self):
         return math.sqrt(sum(x * x for x in self))
@@ -52,3 +59,26 @@ class Vector:
             return self._components[index]
         else:
             raise TypeError(f"{cls.__name__} indices must be integers")
+
+    def __getattr__(self, name):
+        cls = type(self)
+        if len(name) == 1:
+            pos = cls.shortcut_names.find(name)
+            if 0 <= pos < len(self._components):
+                return self._components[pos]
+        msg = f"{cls.__name__!r} object has no attribute {name!r}"
+        raise AttributeError(msg)
+
+    def __setattr__(self, name, value):
+        cls = type(self)
+        if len(name) == 1:
+            if name in cls.shortcut_names:
+                error = "readonly attribute {attr_name!r}"
+            elif name.islower():
+                error = "can't set attribute 'a' to 'z' in {cls_name!r}"
+            else:
+                error = ""
+            if error:
+                msg = error.format(cls_name=cls.__name__, attr_name=name)
+                raise AttributeError(msg)
+        super().__setattr__(name, value)

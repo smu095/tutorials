@@ -1,5 +1,3 @@
-# Example 10-2. vector_v1.py: derived from vector2d_v1.py
-
 from array import array
 import reprlib
 import math
