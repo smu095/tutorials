@@ -21,7 +21,7 @@ This repository has the following structure:
 └── setup.py            <- makes repo pip installable
 ```
 
-The notebooks are follow the naming convention `part.chapter-chapter-name.ipynb`.
+The notebooks follow the naming convention `part.chapter-chapter-name.ipynb`.
 
 ## Part 1. Prologue
 
@@ -102,7 +102,7 @@ Through examples we will also examine:
 
 This chapter introduces protocols and duck typing. The working example is a generalised implemetation of the `Vector2d` class from the previous chapter, extending it to the multidimensional case, allowing it to support:
 
-* Basic sequence protocol: __len__, __getitem__.
+* Basic sequence protocol: `__len__`, `__getitem__`.
 
 * Safe representation of many instances with many items.
 
@@ -112,7 +112,7 @@ This chapter introduces protocols and duck typing. The working example is a gene
 
 * Custom formatting language extension.
 
-* Dynamic attribute access with __getattr__.
+* Dynamic attribute access with `__getattr__`.
 
 ### [Chapter 11: Interfaces: From Protocols to ABCs]()
 
