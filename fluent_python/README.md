@@ -9,6 +9,20 @@ merely a summary of each chapter for future reference. Interested readers are
 strongly encouraged to purchase a copy of the book, which goes into far more
 detail.
 
+This repository has the following structure:
+
+```
+.
+├── README.md
+├── examples            <- modules containing example code
+├── figs                <- figures used in notebooks
+├── notebooks           <- notebooks containing summary notes of each chapter
+├── requirements.txt    <- project requirements
+└── setup.py            <- makes repo pip installable
+```
+
+The notebooks are follow the naming convention `part.chapter-chapter-name.ipynb`.
+
 ## Part 1. Prologue
 
 ### [Chapter 1: The Python Data Model]()
