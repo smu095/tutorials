@@ -100,7 +100,23 @@ Through examples we will also examine:
 
 ### [Chapter 10: Sequence Hacking, Hashing, and Slicing]()
 
-TODO.
+This chapter introduces protocols and duck typing. The working example is a generalised implemetation of the `Vector2d` class from the previous chapter, extending it to the multidimensional case, allowing it to support:
+
+* Basic sequence protocol: __len__, __getitem__.
+
+* Safe representation of many instances with many items.
+
+* Proper slicing support, producing new Vector instances.
+
+* Aggregate hashing taking into account every contained element value.
+
+* Custom formatting language extension.
+
+* Dynamic attribute access with __getattr__.
+
+### [Chapter 11: Interfaces: From Protocols to ABCs]()
+
+The subject of this chapter is interfaces, from the dynamic protocols that characterise duck typing to abstract base classes (ABCs) that make interfaces explicit and verify implementations for conformance.
 
 
 
