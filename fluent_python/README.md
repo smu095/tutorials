@@ -106,7 +106,7 @@ This chapter introduces protocols and duck typing. The working example is a gene
 
 * Safe representation of many instances with many items.
 
-* Proper slicing support, producing new Vector instances.
+* Proper slicing support, producing new `Vector` instances.
 
 * Aggregate hashing taking into account every contained element value.
 
