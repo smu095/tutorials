@@ -118,5 +118,6 @@ This chapter introduces protocols and duck typing. The working example is a gene
 
 The subject of this chapter is interfaces, from the dynamic protocols that characterise duck typing to abstract base classes (ABCs) that make interfaces explicit and verify implementations for conformance.
 
+### [Chapter 12: Inheritance: For Good or For Worse]()
 
-
+This chapter is about inheritance and subclassing, discussing good and bad practices when building class hierarchies. Multiple inheritance is illustrated using two important Python projects: the TKinter GUI toolkit and the Django Web framework.
