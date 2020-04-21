@@ -1,3 +1,5 @@
+"""Example 13-1. vector_v6.py: unary operators - and + and infix +."""
+
 from array import array
 import reprlib
 import math
@@ -105,3 +107,13 @@ class Vector:
             outer_fmt = "({})"
         components = (format(c, fmt_spec) for c in coords)
         return outer_fmt.format(", ".join(components))
+
+    def __neg__(self):
+        return Vector(-x for x in self)
+
+    def __pos__(self):
+        return Vector(self)
+
+    def __add__(self, other):
+        pairs = itertools.zip_longest(self, other, fillvalue=0.0)
+        return Vector(a + b for a, b in pairs)
