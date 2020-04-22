@@ -24,6 +24,10 @@ class Vector2d:
     def __iter__(self):  # Makes Vector2d iterable, allows unpacking
         return (i for i in (self.x, self.y))
 
+    # Hack to get examples in chapter 13 to work
+    def __len__(self):
+        return len((self.x, self.y))
+
     def __repr__(self):
         class_name = type(self).__name__
         return "{}({!r}, {!r})".format(class_name, *self)
