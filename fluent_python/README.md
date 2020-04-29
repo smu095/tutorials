@@ -23,13 +23,13 @@ This repository has the following structure:
 
 The notebooks follow the naming convention `part.chapter-chapter-name.ipynb`.
 
-## Part 1. Prologue
+## Part I: Prologue
 
 ### [Chapter 1: The Python Data Model]()
 
 This chapter describes the Python data model. The data model can be thought of as a description of Python as a framework. It formalises the interfaces of the building blocks of the language itself, such as sequences, iterators, functions, classes, context managers and so on.
 
-## Part 2. Data Structures
+## Part II: Data Structures
 
 ### [Chapter 2: An Array of Sequences]()
 
@@ -43,7 +43,7 @@ This chapter discusses common dictionary methods, special handling for missing k
 
 This chapter delves deeper into Unicode. We have skipped this chapter for the time being.
 
-## Part 3. Functions as Objects
+## Part III: Functions as Objects
 
 ### [Chapter 5: First-Class Functions]()
 
@@ -67,7 +67,7 @@ This chapter discusses design patterns in the context of languages with first-cl
 
 The goal of this chapter is to explain how function decorators work. It explores the Python decorator syntax, how Python decides whether a variable is local, why closures exist and how they work. This is helpful when we want to mplement a well-behaved decorator. This chapter also covers interesting decorators in the standard library and implementing a parameterised decorator.
 
-## Part 4. Object-Oriented Idioms
+## Part IV: Object-Oriented Idioms
 
 ### [Chapter 8: Object References, Mutability, and Recycling]()
 
@@ -121,3 +121,24 @@ The subject of this chapter is interfaces, from the dynamic protocols that chara
 ### [Chapter 12: Inheritance: For Good or For Worse]()
 
 This chapter is about inheritance and subclassing, discussing good and bad practices when building class hierarchies. Multiple inheritance is illustrated using two important Python projects: the TKinter GUI toolkit and the Django Web framework.
+
+### [Chapter 13: Operator Overloading: Doing It Right]()
+
+This chapter deals mainly with infix and unary operators. It covers:
+
+* How Python supports infix operators with operands of different types.
+
+* Using duck typing or explicit type checks to deal with operands of various types.
+
+* How an infix operator method should signal it cannot handle an operand.
+
+* The special behaviour of the rich comparison operators (e.g., `==`, `>`, `<`, `<=`, etc.).
+
+* The default handling of augmented assignment operators, like `+=`, and how to overload them.
+
+
+## Part V: Control Flow
+
+### [Chapter 14: Iterables, Iterators, and Generators]()
+
+TODO
