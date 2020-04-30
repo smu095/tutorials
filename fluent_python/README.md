@@ -141,4 +141,11 @@ This chapter deals mainly with infix and unary operators. It covers:
 
 ### [Chapter 14: Iterables, Iterators, and Generators]()
 
-TODO
+This chapter is about the [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern), which among other things lets us *lazily* fetch items one at a time when scanning datasets that don't fit in memory. The Iterator pattern is built into Python. This chapter covers the following topics (and more):
+
+* How the `iter(...)` built-in function works
+* How to implement the Iterator pattern
+* How a generator function works in detail
+* How the Iterator pattern can be replaced by a generator function or expression
+* General purpose generator functions from the standard library
+* Using the new `yield` statement to combine generators
