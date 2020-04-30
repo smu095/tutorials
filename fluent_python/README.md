@@ -50,11 +50,8 @@ This chapter delves deeper into Unicode. We have skipped this chapter for the ti
 This chapter discusses functions as first-class objects, meaning they can be
 
 * created at runtime,
-
 * assigned to a variable or element in a data structure,
-
 * passed as an argument to a function,
-
 * returned as the result of a function.
 
 Having first-class functions enables programming in a functional style.
@@ -80,21 +77,13 @@ This chapter picks up where chapter 1 left off, and shows how to implement sever
 We will see how to:
 
 * Support the built-in functions that produce alternative object representation.
-
 * Implement an alternative constructor as a class method.
-
 * Extend the format mini-language used by the `format()` built-in and `str.format()` method.
-
 * Provide read-only access to attributes.
-
 * Make an object hashable for use in sets and `dict` keys.
-
 * Save memory by using `__slots__`.
-
 Through examples we will also examine:
-
 * How and when to use the `@classmethod` and `@staticmethod` decorators.
-
 * Private and protected attributes in Python: usage, conventions, and methods.
 
 
@@ -103,15 +92,10 @@ Through examples we will also examine:
 This chapter introduces protocols and duck typing. The working example is a generalised implemetation of the `Vector2d` class from the previous chapter, extending it to the multidimensional case, allowing it to support:
 
 * Basic sequence protocol: `__len__`, `__getitem__`.
-
 * Safe representation of many instances with many items.
-
 * Proper slicing support, producing new `Vector` instances.
-
 * Aggregate hashing taking into account every contained element value.
-
 * Custom formatting language extension.
-
 * Dynamic attribute access with `__getattr__`.
 
 ### [Chapter 11: Interfaces: From Protocols to ABCs]()
@@ -127,13 +111,9 @@ This chapter is about inheritance and subclassing, discussing good and bad pract
 This chapter deals mainly with infix and unary operators. It covers:
 
 * How Python supports infix operators with operands of different types.
-
 * Using duck typing or explicit type checks to deal with operands of various types.
-
 * How an infix operator method should signal it cannot handle an operand.
-
 * The special behaviour of the rich comparison operators (e.g., `==`, `>`, `<`, `<=`, etc.).
-
 * The default handling of augmented assignment operators, like `+=`, and how to overload them.
 
 
