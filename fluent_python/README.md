@@ -129,3 +129,10 @@ This chapter is about the [Iterator pattern](https://en.wikipedia.org/wiki/Itera
 * How the Iterator pattern can be replaced by a generator function or expression
 * General purpose generator functions from the standard library
 * Using the new `yield` statement to combine generators
+
+### [Chapter 15: Context Managers and `else` Blocks]()
+
+This chapter explores control flow features which are not so common in other languages, namely:
+
+* The `with` statement and context managers.
+* The `else` clause in `for`, `while`, and `try` statements.
