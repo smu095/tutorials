@@ -136,3 +136,23 @@ This chapter explores control flow features which are not so common in other lan
 
 * The `with` statement and context managers.
 * The `else` clause in `for`, `while`, and `try` statements.
+
+### [Chapter 16: Coroutines]()
+
+This chapter deals with [coroutines](https://en.wikipedia.org/wiki/Coroutine#:~:text=Coroutines%20are%20computer%20program%20components,iterators%2C%20infinite%20lists%20and%20pipes.). A coroutine is syntactically like a generator: just a function with a `yield` keyword in its body. This chapter also deals with the `yield from` keyword.
+
+(**Note:** This chapter is quite technical, and delves into themes that currently are beyond my understanding of computer science. Consequently, the notes from this chapter will be somewhat superficial.)
+
+### Chapter 17: Concurrency with Futures
+
+We have skipped this chapter for the time being.
+
+### Chapter 18: Concurrency with asyncio
+
+We have skipped this chapter for the time being.
+
+## Part VI: Metaprogramming
+
+### [Chapter 19: Dynamic Attributes and Properties]()
+
+TODO.
