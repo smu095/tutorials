@@ -1,6 +1,6 @@
 # Web scraping in Python
 
-This folder contains a simple script for scraping the names of famous mathematicians and ranking their popularity based on the cumulative number of viewsd their respective Wikipedia pages have amassed between 01.04.20 and 01.06.20.
+This folder contains a simple script for scraping the names of famous mathematicians and ranking their popularity based on the cumulative number of views their respective Wikipedia pages have amassed between 01.04.20 and 01.06.20.
 
 The work here is based on the following tutorials:
 
