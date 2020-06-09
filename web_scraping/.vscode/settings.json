@@ -1,0 +1,12 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "git.ignoreLimitWarning": true,
+}
