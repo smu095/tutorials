@@ -1,0 +1,5 @@
+-e .
+jupyter notebook
+black
+mypy
+flake8
