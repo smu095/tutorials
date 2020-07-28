@@ -81,7 +81,7 @@ python3 -m http.server
 
 * To write an HTML comment, wrap it in the special markers `<!--` and `-->`.
 
-## What’s in the head? Metadata in HTML
+## [What’s in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
 * The HTML head is the contents of the `<head>` element. The head's job is to contain metadata about the document.
 * The `<title>` element is metadata that represents the title of the overall HTML document (not the document's content.)
@@ -117,7 +117,7 @@ python3 -m http.server
 
 * You can (and really should) set the language of your page. This can be done by adding the `lang` attribute to the opening HTML tag, e.g. `<html lang="en-US">`.
 
-## HTML text fundamentals
+## [HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
 ### The basics: Headings and Paragraphs
 
@@ -159,6 +159,18 @@ python3 -m http.server
 * The `<em>` (emphasis) element is used to *stress* certain words.
 * The `<strong>` (strong importance) element is used to **emphasize** certain words.
 
-## Creating hyperlinks
+## [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+
+TODO.
+
+## [Advanced text formatting]()
+
+TODO.
+
+## [Document and website structure]()
+
+TODO.
+
+## [Debugging HTML]()
 
 TODO.
