@@ -156,8 +156,8 @@ python3 -m http.server
 
 ### Emphasis and importance
 
-* The <em> (emphasis) element is used to *stress* certain words.
-* The <strong> (strong importance) element is used to **emphasize** certain words.
+* The `<em>` (emphasis) element is used to *stress* certain words.
+* The `<strong>` (strong importance) element is used to **emphasize** certain words.
 
 ## Creating hyperlinks
 
