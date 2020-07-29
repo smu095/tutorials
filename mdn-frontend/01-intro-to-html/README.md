@@ -1,12 +1,14 @@
 # Introduction to HTML
 
-This tutorial is based on the [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) module of MDN's [front-end web developer](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) course.
+These summary notes are based on the [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) module of MDN's [front-end web developer](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) course.
 
-To create a local web server, navigate to the folder containing content to show, and type
+To create a local web server (requires Python 3.6+), navigate to the folder containing content to show, and type
 
 ```python
 python3 -m http.server
 ```
+
+or, if you are using [Visual Studio Code](https://code.visualstudio.com/), install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
 ## [Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
