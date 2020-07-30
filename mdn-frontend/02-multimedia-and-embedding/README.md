@@ -4,7 +4,7 @@ These summary notes are based on the [Multimedia and Embedding](https://develope
 
 ## [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
 
-* To put a simple image on a webpage we use the <img> element. 
+* To put a simple image on a webpage we use the `<img>` element. 
 * This is an empty element (meaning that it has no text content or closing tag) that requires a `src` attribute containing a path pointing to the image.
 *  The `alt` attribute is a textual description of the image, for use in situations where the image cannot be seen/displayed.
 * The `width` and `height` attributes are used to specify the width and height of your image. 
