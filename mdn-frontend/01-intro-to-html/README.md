@@ -306,7 +306,7 @@ for short quotations that don't require paragraph breaks.</q></p>
 ### Non-semantic wrappers
 
 * Sometimes you might want to just group a set of elements together to affect them all as a single entity with some CSS or JavaScript. 
-* For cases like these, HTML provides the `<div>` and `<span>` elements with a suitable `class` attribute, to provide some kind of label for them so they can be easily targeted.
+* For cases like these, HTML provides the `<div>` (short for *division*) and `<span>` elements with a suitable `class` attribute, to provide some kind of label for them so they can be easily targeted.
 * `<span>` is an **inline non-semantic element**, which you should only use if you can't think of a better semantic text element to wrap your content, or don't want to add any specific meaning.
 * `<div>` is a **block level non-semantic element**, which you should only use if you can't think of a better semantic block element to use, or don't want to add any specific meaning.
 
